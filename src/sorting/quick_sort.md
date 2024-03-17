@@ -1,4 +1,4 @@
-###Quick Sort
+# Quick Sort
 
 **Quicksort** is a sorting algorithm based on the **divide and conquer approach** where
 
@@ -6,7 +6,7 @@
 2. The left and right subarrays are also divided using the same approach. This process continues until each subarray contains a single element.
 3. At this point, elements are already sorted. Finally, elements are combined to form a sorted array.
 
-### Algorithm
+## Algorithm
 
 `quickSort(array, start, end)`:
 
@@ -47,6 +47,6 @@ Worst : O(n^2)
 
 **In-place** : Yes
 
-**Stability** : ****No
+**Stability** : No
 
 The **worst case** occurs when the pivot element picked is either the greatest or the smallest element. This condition leads to the case in which the pivot element lies in an extreme end of the sorted array. One sub-array is always empty and another sub-array contains `n-1` elements. Thus, quicksort is called only on this sub-array.

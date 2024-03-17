@@ -1,8 +1,8 @@
-###Insertion Sort
+# Insertion Sort
 
 **Insertion sort is a sorting algorithm that places an unsorted element at its suitable place in each iteration.**
 
-**Algorithm :**
+## Algorithm
 
 1. *The first element in the array is assumed to be sorted. Take the second element and store it separately in `current`.*
 2. *Compare `current` with the first element. If the first element is greater than `current`, then `current` is placed in front of the first element. Now, the first two elements are sorted.*
